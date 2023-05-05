@@ -2,15 +2,11 @@
 
 EncurtaLink é um projeto de encurtador de links feito em Python. Ele permite que você encurte URLs longas para que elas possam ser facilmente compartilhadas em plataformas de redes sociais, e-mails e mensagens. 
 
-<br/>
-
 ## 🖥️ **Tecnologias utilizadas:**
 
 <p>O EncurtaLink foi construído usando as seguintes tecnologias:</p>
 
 - Python 3
-
-<br/>
 
 ## 💾 **Instalação:** 
 
@@ -32,7 +28,6 @@ cd encurta-link
 ```python
 pip install -r requirements.txt
 ```
-<br/>
 
 ## 🤩 **Uso do APP:**
 
@@ -52,8 +47,6 @@ Você pode então copiar a URL curta e compartilhá-la onde quiser.
 ## ⭐ **Contribuição:**
 
 Se você quiser contribuir para o EncurtaLink, fique a disposição. Caso veja algum problema, não deixe de reportar.
-
-<br/>
 
 ## 🚶🏻 **Próximos passos:**
 
