@@ -7,6 +7,7 @@ EncurtaLink é um projeto de encurtador de links feito em Python. Ele permite qu
 <p>O EncurtaLink foi construído usando as seguintes tecnologias:</p>
 
 - Python 3
+- Django
 
 ## 💾 **Instalação:** 
 
