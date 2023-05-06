@@ -18,29 +18,37 @@ Para instalar o EncurtaLink, siga estes passos:
 git clone https://github.com/seuusuario/encurta-link.git
 ```
 
-2. Navegue até o diretório do EncurtaLink:
+2. Crie um ambiente virtual:
 
 ```bash
-cd encurta-link
+python3 -m venv env
 ```
 
-3. Instale as dependências do projeto:
+3. Ative o ambiente virtual:
+```bash
+source env/bin/activate
+```
+
+4. Instale as dependências do projeto:
 ```python
 pip install -r requirements.txt
 ```
 
+5. Rode as migrações do Django:
+```python
+python manage.py migrate
+```
+
+6. Execute o servidor local:
+```python
+python manage.py runserver
+```
+
+7. Acesse a aplicação em seu navegador em `http://localhost:8000`
+
 ## 🤩 **Uso do APP:**
 
-Para usar o EncurtaLink, execute o arquivo app.py no terminal:
-
-```python
-python app.py
-```
-Isso iniciará o servidor da web local em `http://localhost:5000`. Abra um navegador da web e navegue até essa URL.
-
-Na página inicial do EncurtaLink, você verá um campo de texto onde pode inserir a URL longa que deseja encurtar. Clique no botão "Encurtar" e o EncurtaLink gerará uma URL curta para a URL longa fornecida.
-
-Você pode então copiar a URL curta e compartilhá-la onde quiser.
+Ao acessar a aplicação em `http://localhost:8000`, você será direcionado à página inicial. Para encurtar uma URL, basta digitar a URL longa no campo de entrada e clicar no botão "Encurtar". A aplicação irá gerar uma URL curta correspondente e exibirá ambas na página. Para acessar a URL longa correspondente a uma URL curta, basta acessar a URL curta gerada na página inicial.
 
 ---
 
